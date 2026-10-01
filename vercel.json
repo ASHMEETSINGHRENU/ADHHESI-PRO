@@ -1,11 +1,7 @@
-﻿{
+{
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "https://adhhesi-server-1.onrender.com/api/:path*"
-    },
-    {
-      "source": "/((?!api|assets|.*\\..*).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
